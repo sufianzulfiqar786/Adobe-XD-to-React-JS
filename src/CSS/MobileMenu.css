@@ -1,0 +1,123 @@
+@media (min-width:1003px) and (max-width:1000003px){
+    .MobileMenuHeader{
+        display: none;
+    }
+}
+
+
+
+.notheight {
+    width: 0%;
+    height: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: height 0.3s;
+    transition: width 0.3s;
+}
+
+.notheight1 {
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: max-height 0.3s;
+}
+
+.mobile-screen {
+    background: rgba(0, 0, 0, .3);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    max-height: 100vh;
+    z-index: 10000;
+
+}
+
+
+
+.InnerClassMobileScreen {
+    width: 40%;
+    background-color: white;
+    /* transform: translateX(-100px); */
+    height: 100vh;
+    /* transition: all 1s; */
+}
+
+.MobileMenu1Icon {
+    /* background-color: red; */
+    font-size: 30px;
+}
+
+.headerMobileSideBar {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.LogoMobileMenu img{
+    width: 55px;
+
+}
+
+.mobileMenuPerson{
+    width: 90px;
+    border-radius: 50px;
+}
+
+
+
+@media (min-width:470px) and (max-width:1003px){
+    .headerMobileSideBar a {
+        margin-top: 10px;
+        margin-left: 10%;
+        text-decoration: none;
+        color: white;
+        width: 80%;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #ffc107;
+        text-align: center;
+        font-size: 4.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobileMenuUpload{
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-size: 1.7vw;
+        width: 90px;
+        height: 25px;
+    }
+}
+
+@media (min-width:0px) and (max-width:470px){
+    .headerMobileSideBar a {
+        margin-top: 10px;
+        margin-left: 10%;
+        text-decoration: none;
+        color: white;
+        width: 80%;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #ffc107;
+        text-align: center;
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobileMenuUpload{
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-size: 3.4vw;
+        width: 90px;
+        height: 25px;
+    }
+
+}

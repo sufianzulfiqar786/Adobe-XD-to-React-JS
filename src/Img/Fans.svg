@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94.998" height="61.002" viewBox="0 0 94.998 61.002">
+  <g id="Fans" transform="translate(-427.031 -422.307)">
+    <g id="Group_7" data-name="Group 7">
+      <path id="Path_41" data-name="Path 41" d="M489.109,482.369h10.347v-9.854c0-9.854-9.876-9.854-9.876-9.854-9.876,0-10.111-9.854-10.111-9.854,9.876,0,9.641-9.854,9.641-9.854V433.1c0-9.854-9.406-9.854-9.406-9.854h-9.876s-9.876,0-9.876,9.854v9.854s0,9.854,9.876,9.854c0,0-.235,9.854-10.111,9.854,0,0-10.111,0-10.111,9.854v9.854h30.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.879"/>
+      <line id="Line_17" data-name="Line 17" y2="8.446" transform="translate(457.129 473.923)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.877"/>
+      <line id="Line_18" data-name="Line 18" y2="8.446" transform="translate(490.99 473.923)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.877"/>
+    </g>
+    <g id="Group_8" data-name="Group 8">
+      <path id="Path_42" data-name="Path 42" d="M492.638,462.946c6.913,0,7.03-6.9,7.03-6.9-6.913,0-6.8-6.9-6.8-6.9v-6.9c0-6.9,6.906-6.81,6.906-6.81h6.911s6.876-.086,6.876,6.81v6.9s.018,6.9-6.894,6.9c0,0,.3,6.9,7.209,6.9,0,0,7.21,0,7.21,6.9v6.9H499.455" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.879"/>
+      <line id="Line_19" data-name="Line 19" y2="6.569" transform="translate(515.446 470.169)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.877"/>
+    </g>
+    <g id="Group_9" data-name="Group 9">
+      <path id="Path_43" data-name="Path 43" d="M456.3,462.946c-6.913,0-6.972-6.9-6.972-6.9,6.913,0,6.855-6.9,6.855-6.9v-6.9c0-6.9-7.139-6.81-7.139-6.81h-6.912s-6.642-.086-6.642,6.81v6.9s-.135,6.9,6.777,6.9c0,0-.239,6.9-7.15,6.9,0,0-7.151,0-7.151,6.9v6.9H449.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.879"/>
+      <line id="Line_20" data-name="Line 20" y2="6.569" transform="translate(433.614 470.169)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.877"/>
+    </g>
+  </g>
+</svg>

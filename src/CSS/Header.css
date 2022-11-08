@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+
+.Logo img{
+    background-color: red;
+    width: 75px;
+}
+
+.inputField input{
+background-color: transparent;
+border: none;
+width: 100%;
+}
+
+.inputField input:focus{
+        outline: 0;
+    }
+
+    .inputField input:placeholder-shown{
+       font-weight: 600;
+    }
+
+.inputFieldParent{
+    background-color: rgba(128, 128, 128, 0.247);
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+.personImg img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50px;
+
+}
+
+.bttnUpload{
+    width:90%;
+    height: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.Hp{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.Hi{
+    font-size: 20px;
+}
+
+@media (min-width:0px) and (max-width:1003px){
+    .row1st , .row2nd {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
