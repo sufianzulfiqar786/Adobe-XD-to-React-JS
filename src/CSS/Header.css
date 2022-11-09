@@ -43,6 +43,12 @@ width: 100%;
     background-color: black;
     color: white;
     border-radius: 30px;
+    transition: 1.5s all;
+}
+
+.bttnUpload:active{
+    background-color: white;
+    color: black;
 }
 
 .Hp{
@@ -54,13 +60,25 @@ width: 100%;
     font-size: 20px;
 }
 
+.hi i{
+    margin-top: 5px;
+}
+
+.inputFieldParent{
+    transition: 0.7s all;
+  }
+
+  .inputFieldParent:hover{
+    transform: scale(1.03);
+  }
+
 @media (min-width:0px) and (max-width:1003px){
     .row1st , .row2nd {
         display: none;
     }
 }
 
-
+    
 
 
 

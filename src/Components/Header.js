@@ -9,16 +9,16 @@ import person from "../Img/Person.png";
 const Header = () => {
   return (
     <>
-      <div className="fluid-container">
+      <div className="fluid-container headerBody">
         {/* 1st row  */}
 
-        <div className="row py-2 border-bottom row1st">
+        <div className="row py-2 border-bottom row1st m-0  ">
           <div className="col-4">
             <div className="row mt-2">
-              <div className="col-3  d-flex justify-content-end align-items-center">
+              <div className="col-2  d-flex justify-content-end align-items-center">
                 <i class="   fa-solid fa-bars"> </i>
               </div>
-              <div className="col-9 Logo">
+              <div className="col-10 Logo">
                 <img src={logo} alt="" />
               </div>
             </div>
@@ -63,17 +63,17 @@ const Header = () => {
 
         {/* 2nd row  */}
 
-        <div className="row my-4 row2nd">
+        <div className="row mt-4 mb-2 row2nd">
           <div className="col-9">
             <div className="row">
               <div className="col-1"></div>
               <div className="col-8">
-                <div className="row">
+                <div className="row BorderBottm">
                   <div className="col-2">
                     <p className="Hp">PopularVideo</p>
                   </div>
                   <div className="col-2">
-                    <p className="Hp">Categories</p>
+                    <p className="Hp ">Categories</p>
                   </div>
                   <div className="col-2">
                     <p className="Hp">Channels</p>
@@ -92,22 +92,22 @@ const Header = () => {
 
               <div className="col-3">
                 <div className="row">
-                  <div className="col-2">
+                  <div className="col-2 hi ">
                     <i class="fa-regular fa-heart Hi"></i>
                   </div>
-                  <div className="col-2">
+                  <div className="col-2 hi">
                     <i class="fa-regular fa-clock Hi"></i>
                   </div>
-                  <div className="col-2 ">
+                  <div className="col-2 hi ">
                     <i class="	fa fa-play-circle-o Hi"></i>
                   </div>
-                  <div className="col-2">
+                  <div className="col-2 hi">
                     <i class="fa fa-pinterest-p Hi" aria-hidden="true"></i>
                   </div>
-                  <div className="col-2">
+                  <div className="col-2 hi ">
                     <i class="fa fa-hourglass Hi" aria-hidden="true"></i>
                   </div>
-                  <div className="col-2"></div>
+                  <div className="col-2 hi"></div>
                 </div>
               </div>
             </div>

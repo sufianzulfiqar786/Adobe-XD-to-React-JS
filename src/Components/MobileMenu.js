@@ -79,25 +79,29 @@ const MobileMenu = () => {
               <Link
                 className="d-flex justify-content-center text-light"
                 onClick={() => setMobileMenu1(!MobileMenu1)} >
-                Home
+                Videos
               </Link>
 
               <Link
                 className="d-flex justify-content-center text-light" >
-                About
+                Categories
               </Link>
 
               <Link
                 className="d-flex justify-content-center text-light" >
-                Education
+                Channels
               </Link>
 
               <Link className="d-flex justify-content-center text-light">
-                Portfolio
+               Trendings
               </Link>
 
               <Link className="d-flex justify-content-center text-light">
-                Contact
+                Movies
+              </Link>
+
+              <Link className="d-flex justify-content-center text-light">
+                Go to
               </Link>
 
             </div>

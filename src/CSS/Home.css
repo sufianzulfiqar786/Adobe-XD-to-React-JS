@@ -1,0 +1,127 @@
+.body1st {
+    overflow-x: hidden;
+    background-image: url("../Img/Slider.png");
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+}
+
+
+
+.row1st{
+    height: 100%;
+}
+
+.column1st{
+    height: 40%;
+}
+
+.column2nd{
+    height: 30%;
+}
+
+.column3rd{
+    height: 10%;
+}
+
+.bttnbody1st{
+    width:20%;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+transition: 0.8s all;
+}
+
+.bttnbody1st:active{
+background-color: black;
+color: white;
+}
+
+@media (min-width:470px) and (max-width:1003px){
+.Bh2{
+font-size: 25px;
+}
+
+.Bh3{
+    font-size: 14px;
+    /* background-color: red; */
+
+}
+
+.bttnbody1st{
+    width:140px;
+    height: 33px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+    font-size: 13px;
+
+}
+
+}
+
+
+@media (min-width:345px) and (max-width:470px){
+    .Bh2{
+    font-size: 20px;
+    }
+    
+    .Bh3{
+        font-size: 11px;
+        /* background-color: red; */
+    
+    }
+    
+    .bttnbody1st{
+        width:130px;
+        height: 30px;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+        font-size: 12px;
+    
+    }
+    
+    }
+
+    @media (min-width:0px) and (max-width:345px){
+        .Bh2{
+        font-size: 13px;
+        }
+        
+        .Bh3{
+            font-size: 5px;
+            /* background-color: red; */
+        
+        }
+        
+        .bttnbody1st{
+            width:100px;
+            height: 20px;
+            background-color: white;
+            color: black;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+            font-size: 8.5px;
+        
+        }
+
+        .body1st {
+            overflow-x: hidden;
+            background-image: url("../Img/Slider.png");
+            background-attachment: fixed;
+            width: 100%;
+            height: 330px;
+        }
+        
+        }

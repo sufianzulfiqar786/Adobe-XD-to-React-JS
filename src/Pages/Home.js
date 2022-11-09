@@ -1,15 +1,21 @@
-import React from 'react'
-import Header from '../Components/Header'
+import React from "react";
+import BodyFeature from "../Components/BodyFeature";
+import Header from "../Components/Header";
+import HomeBodyCreateAccount from "../Components/HomeBodyCreateAccount";
 
+import "../CSS/Home.css";
 
 const Home = () => {
   return (
     <>
+      <Header />
+      <HomeBodyCreateAccount />
 
-     <Header/>
+      <BodyFeature />
 
+      
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
